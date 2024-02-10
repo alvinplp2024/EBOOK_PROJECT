@@ -1,0 +1,48 @@
+body{
+display: flex;	
+flex-direction: column;
+justify-content: flex-start;
+align-items:center;
+background: #23b499;
+font-family:'Open Sans', sans-serif;
+color: #fff;
+height: #000;
+}
+
+/* Style the navigation menu */
+.navb1 {
+  width: 70%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* Navigation links */
+.navb1 a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 100%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+
+/* Add a background color on mouse-over */
+.navb1 a:hover {
+  background-color: #000;
+}
+
+/* Style the current/active link */
+.navb1 a.active {
+  background-color: #04AA6D;
+}
+
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+/*@media screen and (max-width: 500px) {
+  .navb1 a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left; /* If you want the text to be left-aligned on small screens */
+  }
+}*/
